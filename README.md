@@ -1,28 +1,27 @@
 # 🍲 Yemek Tarif Platformu
 
-Mutfak meraklılarının tariflerini dijital ortamda düzenleyebilmeleri ve malzeme listelerini yönetebilmeleri için geliştirilmiş profesyonel bir **Tarif Yönetim Sistemi** yazılımıdır.
+Kullanıcıların kendi yemek tariflerini kategorilere göre kaydedip saklayabildiği temel bir **C# Windows Forms** uygulamasıdır.
 
 ---
 
 ## 🚀 Özellikler
 
-*   📖 **Tarif Arşivi:** Malzeme listesi ve hazırlanış aşamalarıyla detaylı kayıt.
-*   🍽️ **Kategori Yönetimi:** Tatlılar, ana yemekler ve içecekler için dinamik gruplar.
-*   ⚖️ **Malzeme Takibi:** Tarif içerisindeki malzemelerin miktar bazlı tanımlanması.
-*   🔍 **Akıllı Filtreleme:** Kategori veya zorluk seviyesine göre anlık arama.
+*   📖 **Tarif Ekleme:** Yemek adı, malzemeler ve yapılış adımlarının yazılması.
+*   🍽️ **Kategori Seçimi:** Tarifin tatlı, ana yemek veya çorba olarak işaretlenmesi.
+*   🔍 **Tarif Arama:** İsim bazlı arama yaparak istenilen tarife hızlıca ulaşılması.
+*   🖼️ **Basit Listeleme:** Tüm tariflerin bir tablo üzerinde topluca gösterilmesi.
 
 ---
 
 ## 🛠️ Kullanılan Teknolojiler
 
 *   **C# (Windows Forms)**
-*   **.NET Framework**
-*   **Generic Collections (List, Dictionary)**
+*   **Liste Yönetimi**
 
 ---
 
 ## ⚙️ Kurulum ve Çalıştırma
 
-1.  **Projeyi Yükleyin:** Visual Studio ile ana çözüm dosyasını açın.
-2.  **Hata Kontrolü:** Eksik referans varsa NuGet üzerinden otomatik yüklenmesini bekleyin.
-3.  **Çalıştırın:** Klavyeden **F5** tuşuna basarak yemek tarif uygulamasını ayağa kaldırın.
+1.  Visual Studio üzerinden projeyi çalıştırın.
+2.  "Tarif Ekle" butonunu kullanarak deneme verileri girin.
+3.  Arama kısmından eklediğiniz tarifi test edin.
